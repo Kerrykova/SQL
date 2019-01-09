@@ -90,8 +90,9 @@ SELECT A.first_name, A.last_name, SUM(B.amount) AS "August 2005 Sales"
 FROM staff A
 INNER JOIN payment B
 ON A.staff_id = B.staff_id
-WHERE B.payment_date LIKE "2005-05%"
+WHERE B.payment_date LIKE "2005-08%"
 GROUP BY A.staff_id;
+
 
 -- 6c. List each film and the number of actors who are listed for that film. Use tables film_actor 
 -- and film. Use inner join.
