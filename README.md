@@ -1,6 +1,6 @@
-# SQL_HW
+# SQL
 
-Assignment - write queries to complete the following tasks or answer the following questions. 
+Wrote a series of SQL queries to answer the following questions based on the Sakila sample database (https://dev.mysql.com/doc/sakila/en/). 
 
 1a. Display the first and last names of all actors from the table actor.
 
@@ -28,7 +28,6 @@ Assignment - write queries to complete the following tasks or answer the followi
 
 5a. You cannot locate the schema of the address table. Which query would you use to re-create it?
 
-Hint: https://dev.mysql.com/doc/refman/5.7/en/show-create-table.html
 6a. Use JOIN to display the first and last names, as well as the address, of each staff member. Use the tables staff and address:
 
 6b. Use JOIN to display the total amount rung up by each staff member in August of 2005. Use tables staff and payment.
